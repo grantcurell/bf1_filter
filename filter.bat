@@ -61,3 +61,5 @@ netsh advfirewall firewall add rule name="BF1 Block List" dir=in interface=any a
 netsh advfirewall firewall add rule name="BF1 Block List" dir=out interface=any action=block remoteip=54.93.68.173/32
 netsh advfirewall firewall add rule name="BF1 Block List" dir=in interface=any action=block remoteip=52.59.238.145/32
 netsh advfirewall firewall add rule name="BF1 Block List" dir=out interface=any action=block remoteip=52.59.238.145/32
+netsh advfirewall firewall add rule name="BF1 Block List" dir=in interface=any action=block remoteip=31.204.143.144/32
+netsh advfirewall firewall add rule name="BF1 Block List" dir=out interface=any action=block remoteip=31.204.143.144/32
